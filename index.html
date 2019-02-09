@@ -3,17 +3,31 @@
   <head>
     <title>Invie</title>
     <style media="screen">
+      
       body {
         margin: 10;
       }
+      
       img {
         max-width: 100%;
         vertical-aling: top;
+/*        display: none;
+*/      }
+      
+      img#responsive {
+          display: none;
       }
+
+      @media screen and (max-width: 768px) {
+        img#responsive {
+          display: block;
+        }
+      }
+   
     </style>
   </head>
   <body>
-    <img src="header.jpg" alt="">
+    <img src="invie-responsive.png" alt="" id="responsive">
     <img src="hero.webp" alt="">
     <img src="acustica.jpg" alt="">
     <img src="clasica.webp" alt="">
