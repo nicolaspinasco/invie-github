@@ -1,4 +1,4 @@
 # invie
 Las guitarras más locas
 
-http://invie.website
+https://nicolaspinasco.github.io/invie-github/
